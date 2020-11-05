@@ -1,6 +1,10 @@
 # laravel8-import-command
 The examplae is developed in Laravel 8 for the custom import command to import the records directly in the database.
 
+## How to run the example
+
+Add your data into CSV file inside the storage folder and to import it into database open terminal and go to the root folder and run this command: php artisan import:hotels
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
