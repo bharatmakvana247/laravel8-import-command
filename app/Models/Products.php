@@ -1,12 +1,11 @@
 <?php
 
 namespace App\Models;
-
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Hotels extends Model
+class Products extends Model
 {
     use HasFactory, SoftDeletes;
 
@@ -15,14 +14,14 @@ class Hotels extends Model
      *
      * @var array
      */
+    protected $table = "product";
     protected $fillable = [
-        'name',
-        'image',
-        'city',
-        'address',
-        'description',
-        'stars',
-        'latitude',
-        'longitude'
+        'make',
+        'model',
+        'colour',
+        'capacity',
+        'network',
+        'grade',
+        'condition',
     ];
 }
